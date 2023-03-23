@@ -1,5 +1,5 @@
 <script>
-import title from "./components/AppTitle.vue"
+import AppTitle from "./components/AppTitle.vue"
 // import HelloWorld from './components/HelloWorld.vue';
 export default {
     data(){
@@ -9,13 +9,13 @@ export default {
     },
     
     components: {
-      title,
+      AppTitle,
     }
 }
 </script>
 
 <template>
-  <title></title>
+  <AppTitle></AppTitle>
 </template>
 
 <style scoped>
